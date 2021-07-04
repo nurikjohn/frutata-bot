@@ -1,0 +1,17 @@
+module.exports = {
+    home: 'home',
+    settings: 'settings',
+    info: 'info',
+    feedback: 'feedback',
+    packages: 'packages',
+    products: 'products',
+    product: 'product',
+    basket: 'basket',
+    askname: 'askname',
+    askphone: 'askphone',
+    asklocation: 'asklocation',
+    confirm_order: 'confirm_order',
+    change_name: 'change_name',
+    change_phone: 'change_phone',
+    last: 'last',
+};
