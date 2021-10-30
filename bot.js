@@ -18,5 +18,5 @@ handlers(bot);
 
 // Launch the bot
 bot.launch().then(() => {
-    console.log('\x1b[34m', 'Started', '\x1b[0m');
+	console.log('\x1b[34m', 'Started', '\x1b[0m');
 });
