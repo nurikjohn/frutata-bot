@@ -3,10 +3,10 @@ require('dotenv').config();
 
 // Initialize redis session
 const redis = new TelegrafRedis({
-    store: {
-        host: process.env.SESSION_HOST || '127.0.0.1',
-        port: process.env.SESSION_PORT || 6380,
-    },
+	store: {
+		host: process.env.REDIS_HOST || '127.0.0.1',
+		port: process.env.REDIS_PORT || 6380,
+	},
 });
 
 module.exports = redis;
